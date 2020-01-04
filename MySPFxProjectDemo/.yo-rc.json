@@ -1,0 +1,17 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.9.1",
+    "libraryName": "my-sp-fx-project-demo",
+    "libraryId": "0fcbf5e4-954b-4913-8957-32b4050a0785",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "MySPFxProjectDemo",
+    "skipFeatureDeployment": "false",
+    "componentType": "webpart",
+    "framework": "none",
+    "componentName": "WP2",
+    "componentDescription": "webpart2",
+    "isCreatingSolution": false,
+    "isDomainIsolated": "false"
+  }
+}

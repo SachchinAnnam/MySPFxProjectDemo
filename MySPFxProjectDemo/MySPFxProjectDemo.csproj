@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1B41D657-3B4F-400E-BA59-4DFACF77C30F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <OutputPath>bin\Debug\</OutputPath>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MySPFxProjectDemo</RootNamespace>
+    <AssemblyName>MySPFxProjectDemo</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Windows\System32\cmd.exe</StartProgram>
+    <StartArguments>/K  gulp serve</StartArguments>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Windows\System32\cmd.exe</StartProgram>
+    <StartArguments>/K  gulp serve</StartArguments>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include=".editorconfig" />
+    <None Include=".vscode\extensions.json" />
+    <None Include=".vscode\launch.json" />
+    <None Include=".vscode\settings.json" />
+    <None Include=".yo-rc.json" />
+    <None Include="config\config.json" />
+    <None Include="config\copy-assets.json" />
+    <None Include="config\deploy-azure-storage.json" />
+    <None Include="config\package-solution.json" />
+    <None Include="config\serve.json" />
+    <None Include="config\write-manifests.json" />
+    <None Include="generator.log" />
+    <None Include="package-lock.json" />
+    <None Include="package.json" />
+    <None Include="README.md" />
+    <None Include="src\webparts\wp1\Wp1WebPart.manifest.json" />
+    <None Include="src\webparts\wp1\Wp1WebPart.module.scss" />
+    <None Include="src\webparts\WP2.log" />
+    <None Include="src\webparts\wp2\Wp2WebPart.manifest.json" />
+    <None Include="src\webparts\wp2\Wp2WebPart.module.scss" />
+    <None Include="tsconfig.json" />
+    <None Include="tslint.json" />
+    <None Include="WP2.log" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include="gulpfile.js" />
+    <Content Include="src\webparts\wp1\loc\en-us.js" />
+    <Content Include="src\webparts\wp2\loc\en-us.js" />
+    <Content Include="teams\2679ade9-7135-431e-ae17-fae281bad2f4_color.png" />
+    <Content Include="teams\2679ade9-7135-431e-ae17-fae281bad2f4_outline.png" />
+    <Content Include="teams\e43e2057-62cb-4d2c-9523-b2046c45a3b1_color.png" />
+    <Content Include="teams\e43e2057-62cb-4d2c-9523-b2046c45a3b1_outline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="src\index.ts" />
+    <TypeScriptCompile Include="src\webparts\wp1\loc\mystrings.d.ts" />
+    <TypeScriptCompile Include="src\webparts\wp1\Wp1WebPart.ts" />
+    <TypeScriptCompile Include="src\webparts\wp2\loc\mystrings.d.ts" />
+    <TypeScriptCompile Include="src\webparts\wp2\Wp2WebPart.ts" />
+  </ItemGroup>
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

@@ -1,0 +1,15 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "solutionName": "MySPFxProjectDemo",
+    "environment": "spo",
+    "packageManager": "npm",
+    "skipFeatureDeployment": "false",
+    "isDomainIsolated": "false",
+    "componentType": "webpart",
+    "framework": "none",
+    "componentName": "WP1",
+    "componentDescription": "Webpart Demo",
+    "isCreatingSolution": true,
+    "whichFolder": "subdir"
+  }
+}
