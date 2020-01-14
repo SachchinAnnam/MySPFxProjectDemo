@@ -9,8 +9,8 @@
     "skipFeatureDeployment": "false",
     "componentType": "webpart",
     "framework": "none",
-    "componentName": "WP2",
-    "componentDescription": "webpart2",
+    "componentName": "MySPFxItem1",
+    "componentDescription": "MySPFxItem1",
     "isCreatingSolution": false,
     "isDomainIsolated": "false"
   }

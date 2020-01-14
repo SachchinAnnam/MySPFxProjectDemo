@@ -17,11 +17,20 @@
           "manifest": "./src/webparts/wp2/Wp2WebPart.manifest.json"
         }
       ]
+    },
+    "my-sp-fx-item-1-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/mySpFxItem1/MySpFxItem1WebPart.js",
+          "manifest": "./src/webparts/mySpFxItem1/MySpFxItem1WebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
     "Wp1WebPartStrings": "lib/webparts/wp1/loc/{locale}.js",
-    "Wp2WebPartStrings": "lib/webparts/wp2/loc/{locale}.js"
+    "Wp2WebPartStrings": "lib/webparts/wp2/loc/{locale}.js",
+    "MySpFxItem1WebPartStrings": "lib/webparts/mySpFxItem1/loc/{locale}.js"
   }
 }
