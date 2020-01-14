@@ -43,9 +43,13 @@
     <None Include="config\serve.json" />
     <None Include="config\write-manifests.json" />
     <None Include="generator.log" />
+    <None Include="MySPFxItem1.log" />
     <None Include="package-lock.json" />
     <None Include="package.json" />
     <None Include="README.md" />
+    <None Include="src\webparts\MySPFxItem1.log" />
+    <None Include="src\webparts\mySpFxItem1\MySpFxItem1WebPart.manifest.json" />
+    <None Include="src\webparts\mySpFxItem1\MySpFxItem1WebPart.module.scss" />
     <None Include="src\webparts\wp1\Wp1WebPart.manifest.json" />
     <None Include="src\webparts\wp1\Wp1WebPart.module.scss" />
     <None Include="src\webparts\WP2.log" />
@@ -58,15 +62,20 @@
   <ItemGroup>
     <Content Include=".gitignore" />
     <Content Include="gulpfile.js" />
+    <Content Include="src\webparts\mySpFxItem1\loc\en-us.js" />
     <Content Include="src\webparts\wp1\loc\en-us.js" />
     <Content Include="src\webparts\wp2\loc\en-us.js" />
     <Content Include="teams\2679ade9-7135-431e-ae17-fae281bad2f4_color.png" />
     <Content Include="teams\2679ade9-7135-431e-ae17-fae281bad2f4_outline.png" />
+    <Content Include="teams\ac142d31-9f5e-456e-874d-1a511a064db0_color.png" />
+    <Content Include="teams\ac142d31-9f5e-456e-874d-1a511a064db0_outline.png" />
     <Content Include="teams\e43e2057-62cb-4d2c-9523-b2046c45a3b1_color.png" />
     <Content Include="teams\e43e2057-62cb-4d2c-9523-b2046c45a3b1_outline.png" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="src\index.ts" />
+    <TypeScriptCompile Include="src\webparts\mySpFxItem1\loc\mystrings.d.ts" />
+    <TypeScriptCompile Include="src\webparts\mySpFxItem1\MySpFxItem1WebPart.ts" />
     <TypeScriptCompile Include="src\webparts\wp1\loc\mystrings.d.ts" />
     <TypeScriptCompile Include="src\webparts\wp1\Wp1WebPart.ts" />
     <TypeScriptCompile Include="src\webparts\wp2\loc\mystrings.d.ts" />
